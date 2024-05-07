@@ -1,0 +1,13 @@
+pandas
+tqdm
+opencv-python
+scipy
+pyyaml
+easydict
+python-speech-features
+resampy
+soundfile
+gdown
+torch>=1.11.0
+torchvision
+torchaudio

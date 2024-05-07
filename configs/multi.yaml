@@ -1,0 +1,53 @@
+SEED: "20210617"
+NUM_GPUS: 4
+NUM_WORKERS: 6
+LOG_NAME: 'config.txt'
+OUTPUT_DIR: 'talknce_AVA'  # savePath
+evalDataType: "val"
+downloadAVA: False
+RESUME: False
+RESUME_PATH: ""
+RESUME_EPOCH: 0
+
+DATA:
+    dataPathAVA: '' ## change this to your data directory
+
+DATALOADER:
+    nDataLoaderThread: 4
+    
+
+SOLVER:
+    OPTIMIZER: "adam"
+    BASE_LR: 5e-5
+    SCHEDULER:
+        NAME: "multistep"
+        GAMMA: 0.95
+
+MODEL:
+    NUM_SPEAKERS: 3
+    CLIP_LENGTH: 200
+    AV: "speaker_temporal"
+    AV_layers: 3
+    ADJUST_ATTENTION: 0
+    FUSION: 'cross-att'
+    SIM: 'default'
+    LIM: 'self-att'
+
+TRAIN:
+    BATCH_SIZE: 1
+    MAX_EPOCH: 25
+    AUDIO_AUG: 1 
+    TEST_INTERVAL: 1
+    TRAINER_GPU: 4
+
+
+VAL:
+    BATCH_SIZE: 1
+
+TEST:
+    BATCH_SIZE: 1
+    DATASET: 'seen'
+    MODEL: 'unseen'
+
+    
+
