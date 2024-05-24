@@ -62,7 +62,7 @@ python -W ignore::UserWarning test_multicard.py --cfg configs/test.yaml  RESUME_
 
 If you find this code useful, please consider citing the paper below:
 ```
-@inproceedings{jung2023talknce,
+@inproceedings{jung2024talknce,
   title={TalkNCE: Improving Active Speaker Detection with Talk-Aware Contrastive Learning},
   author={Jung, Chaeyoung and Lee, Suyeon and Nam, Kihyun and Rho, Kyeongha and Kim, You Jin and Jang, Youngjoon and Chung, Joon Son},
   booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing},
