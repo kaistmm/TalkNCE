@@ -1,5 +1,6 @@
 ## TalkNCE: Improving Active Speaker Detection with Talk-Aware Contrastive Learning
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/talknce-improving-active-speaker-detection/audio-visual-active-speaker-detection-on-ava)](https://paperswithcode.com/sota/audio-visual-active-speaker-detection-on-ava?p=talknce-improving-active-speaker-detection)
+
 Official implementation of TalkNCE. [[Paper]](https://mmai.io/pubs/pdfs/jung24a.pdf)
 
 ### TalkNCE loss
